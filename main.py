@@ -183,5 +183,6 @@ def get_train_delay_marudor(zugnummer, fahrdatum, eva_startbahnhof, eva_endbahnh
 #print(get_train_delay_marudor("ICE 377", "2023-03-08T16:38:22.369Z", search.station_api("Karlsruhe Hbf"),  search.station_api("Basel Bad Bf")))
 
 #trip_id = get_tripid_api("MEX 17a", "2023-03-08T20:00", search.station_api("Enzberg"), search.station_api("Mühlacker"))
-tripid = get_tripid_api("ICE 887", "2023-03-08T22:55", search.station_api("Fulda"), search.station_api("Hanau Hbf"))
-print(get_trip_api(tripid, search.station_api("Fulda"), search.station_api("Hanau Hbf")))
+tripid = get_tripid_api("MEX 17a", "2023-03-09T10:53", search.station_api("Enzberg"), search.station_api("Mühlacker"))
+print(get_trip_api(tripid, search.station_api("Enzberg"), search.station_api("Mühlacker")))
+
